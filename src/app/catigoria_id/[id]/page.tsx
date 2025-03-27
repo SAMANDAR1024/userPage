@@ -38,7 +38,7 @@ function Catigoria_Id() {
   }
 
   return (
-    <div className="container mx-auto  flex flex-wrap gap-15 mt-10 ">
+    <div className="container mx-auto  px-8 flex flex-wrap gap-12 mt-10 ">
       {catigoriaId.items.map((product) => (
         <Card product={product} key={product.id} />
       ))}
