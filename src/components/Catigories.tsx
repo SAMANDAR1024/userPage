@@ -11,7 +11,7 @@ function Catigories() {
     axios.get("https://nt.softly.uz/api/front/categories").then((res) => {
       console.log(res.data);
       setCatigoria(res.data);
-    });
+    });     
   }, []);
   return (
     <div className="container mx-auto px-1 md:px-6  py-4">

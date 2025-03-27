@@ -3,9 +3,10 @@ import Products from "@/components/Products";
 
 export default function Home() {
   return (
-    <div className=" container w-[1440px] mx-auto p-96: font-[family-name:var(--font-geist-sans)]">
-      <Banner />
-      <Products />
-    </div>
+    <div className="container mx-auto max-w-[1440px] px-4 sm:px-8 md:px-12 font-[var(--font-geist-sans)]">
+    <Banner />
+    <Products />
+  </div>
+  
   );
 }
