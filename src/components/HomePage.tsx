@@ -6,7 +6,7 @@ import Catigories from "./Catigories";
 function HomePage() {
   return (
     <div className="container mx-auto px-12">
-      <nav className="flex  py-5 text-white  justify-between  items-center">
+      <nav className="flex  py-5   justify-between  items-center">
         <p className="text-4xl">
           <Link href={"/"}>Logo</Link>
         </p>
