@@ -11,11 +11,10 @@ function Catigoria_Id() {
     null
   );
   const { id } = useParams();
-  
 
   useEffect(() => {
     axios
-      .get(`https://nt.softly.uz/api/front/products?page=${id}&limit=10`)
+      .get(`https://nt.softly.uz/api/front/products?categoryId=${id}&limit=10`)
       .then((res) => {
         console.log(res.data);
         setCatigoriaId(res.data);
