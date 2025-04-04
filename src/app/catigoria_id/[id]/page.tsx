@@ -19,7 +19,7 @@ function Catigoria_Id() {
         console.log(res.data);
         setCatigoriaId(res.data);
       })
-      .catch((e) => {
+      .catch((e) => {   
         console.error("Apidan Xatolik", e);
       });
   }, [id]);
